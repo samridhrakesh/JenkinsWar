@@ -18,4 +18,18 @@
   <build>
     <finalName>JenkinsWar</finalName>
   </build>
+   <repositories>
+        <repository>
+            <id>myMavenRepo.read</id>
+            <url>https://mymavenrepo.com/repo/o1PmcDjMmq2zDXmKZoIQ/</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>myMavenRepo.write</id>
+           <url>https://mymavenrepo.com/repo/tt81mBOYWKY2WKqHfNQd/</url>
+        </repository>
+    </distributionManagement>
 </project>
+
