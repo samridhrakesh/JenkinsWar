@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'cp target/*.war /opt/apache-tomcat-8.5.38/webapps
+                sh 'cp target/*.war /opt/apache-tomcat-8.5.38/webapps'
             }
         }
     }
