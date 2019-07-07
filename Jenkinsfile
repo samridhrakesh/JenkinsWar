@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'cp target/*.war /opt/
+                sh 'cp target/*.war /opt/'
             }
         }
     }
